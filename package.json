@@ -1,0 +1,20 @@
+{
+  "name": "limitless",
+  "version": "2.0.0",
+  "description": "Limitless is a streamlined roleplaying system designed to be used in your next game. It offers a player facing dice pool mechanic thats easy for beginners and deep enough for veterans.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "Jacob Rex",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.4.0"
+  },
+  "dependencies": {
+    "vitepress-plugin-auto-sidebar": "^1.2.0"
+  }
+}
