@@ -27,7 +27,7 @@ Characters engage in Melee combat by making either an Agility, Strength or Dexte
 | 1         | Partial success at GM's discretion        |
 | 2         | You are the attacker, and defender may only use passive defenses |
 
-See the [Combat](rules/combat) section for more information.
+See the [Combat](/rules/combat) section for more information.
 
 #### Defending
 Melee weapons can be used in lieu of Shields to defend against incoming damage from melee attacks when the target is able to defend. So long as a character is armed with a melee weapon and ready and able to defend, they have 1 Defense.
@@ -76,7 +76,7 @@ Characters attack with ranged weapons by making a Dexterity Checks and by rollin
 | 2         | You hit and the target cannot Defend |
 
 #### Range
-The range of the target determines the Difficulty of the shot. See [Movement & Distance](/rules/combat#movement-distance) for more information.
+The range of the target determines the Difficulty of the shot. See [Movement & Distance](/rules/combat.html#movement-distance) for more information.
 
 | Name    | Difficulty               |
 |:--------|:------------------------ |

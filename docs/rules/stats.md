@@ -6,13 +6,13 @@ Strength (STR) describes your Character's physical might. It dermines how powerf
 
 You'll use Strength to...
 * Do more damage with melee weapons and unarmed attacks
-* Make melee [Combat](/combat/overview) checks
+* Make melee [Combat](/rules/combat) checks
 * Meet heavy equipment requirements
 * Apply force to objects and push, pull, lift, or break them
 * Peform atheltic actions like climbing, throwing, grappling etc
 
 #### Power
-When rolling melee damage, you will be limited by your Power or your weapon's Attack Power, whichever is lower. Your Power is STR/4 rounded down. See [Equipment](/equipment/overview) for more information.
+When rolling melee damage, you will be limited by your Power or your weapon's Attack Power, whichever is lower. Your Power is STR/4 rounded down. See [Equipment](/rules/equipment) for more information.
 
 #### Unarmed Damage
 Your unarmed damage is the highest of Xd6 where X is your Power. If the highest number in the damage pool is a 6, add 1d6 to the damage. Repeat this until something other than a 6 is rolled.
@@ -21,7 +21,7 @@ Your unarmed damage is the highest of Xd6 where X is your Power. If the highest 
 Agility (AGI) describes your Character's atheleticism & nimbleness. It determines how easily they can react quickly or perform certain physical feats.
 
 You'll use Agility to...
-* Make melee [Combat](/combat/overview) checks
+* Make melee [Combat](/rules/combat) checks
 * Perform athletic actions like jump, run, tumble, balance, etc
 * Avoid harm by dodging
 
@@ -29,7 +29,7 @@ You'll use Agility to...
 Dexterity (DEX) describes your Character's fine motor skills & hand-eye coordination. It determines how easily they can perform complex or precise actions.
 
 You'll use Dexterity to..
-* Make precise melee [Combat](/combat/overview) checks
+* Make precise melee [Combat](/rules/combat) checks
 * Meet weapon requirements
 * Perform stealthy actions like moving silently or hiding
 * Perform complex actions like disabling devices, picking locks, tying a rope, pick pocket
