@@ -3,7 +3,6 @@
 layout: home
 
 hero:
-  name: "LIMITLESS"
   text: "An OSR ruleset for your next game."
   tagline: Limitless is a streamlined RPG system with a 2d20, roll-under mechanic that's beginner-friendly yet deep enough for veteran players.
   actions:
