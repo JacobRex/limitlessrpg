@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Limitless",
   description: "Limitless is a streamlined roleplaying system designed to be used in your next game. It offers a player facing dice pool mechanic thats easy for beginners and deep enough for veterans.",
-  base: '/',
   appearance: 'force-dark',
   
   themeConfig: {
