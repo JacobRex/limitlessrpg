@@ -1,7 +1,4 @@
-# How to Play
-Limitless is an OSR tabletop rpg played with paper, pencils, dice and a group of friends. One player becomes the Game Master (GM), guiding the adventure by describing the world and its challenges. Players create characters and decide how to interact with this world and use dice rolls to see what happens.
-
-## Core Mechanic
+# Core Mechanic
 Everything a player might possibly attempt that could result in failure is resolved with a Check. Checks are made by rolling 2d20 and comparing it to the Stat identified by the GM. Each die that rolled *below* the relevant Stat is counted as a Success.
 
 | Successes | Outcome         |

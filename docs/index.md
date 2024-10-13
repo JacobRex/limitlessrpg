@@ -8,8 +8,11 @@ hero:
   tagline: Limitless is a streamlined RPG system with a 2d20, roll-under mechanic that's beginner-friendly yet deep enough for veteran players.
   actions:
     - theme: brand
-      text: How to Play
+      text: Rulebook
       link: /rules/how-to-play
+    - theme: alternate
+      text: Character Sheet
+      link: /limitlessrpg/CharacterSheet.pdf
 
 features:
   - title: No Classes
@@ -31,4 +34,11 @@ features:
   - title: Open Source
     details: Limitless is proudly released under the Open RPG Creative license (“ORC License”) for others to use.
 ---
+
+## How To Use This
+Use Limitless in your game by adding the text "A [Limitless](https://jacobrex.github.io/limitlessrpg/) roleplaying game" somewhere in your document.
+
+### Acknowledgements
+* Many influences from [The Black Hack](https://www.drivethrurpg.com/en/product/255088/the-black-hack-second-edition) by David Black
+* Warning: this game contains [Deadly Weapons](https://jacobrex.itch.io/deadly-weapons).
 

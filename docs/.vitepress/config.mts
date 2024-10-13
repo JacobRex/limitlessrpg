@@ -9,17 +9,19 @@ export default defineConfig({
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.svg',
+    siteTitle: false,
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Rules', link: '/getting-started/how-to-play' }
+      { text: 'Rules', link: '/getting-started/core-mechanic' }
     ],
 
     sidebar: [
       {
         text: 'Getting Started',
         items: [
-          { text: 'How to Play', link: '/getting-started/how-to-play.md' },
-          { text: 'Character Sheet', link: '/' },
+          { text: 'How to Play', link: '/getting-started/core-mechanic.md' },
+          { text: 'Character Sheet', link: '/limitlessrpg/CharacterSheet.pdf' },
         ]
       },
       {
@@ -33,11 +35,17 @@ export default defineConfig({
           { text: 'Equipment', link: '/rules/equipment.md' },
           { text: 'Combat', link: '/rules/combat.md' },
         ]
+      },
+      {
+        text: 'Examples of Play',
+        items: [
+          { text: 'Example of Combat', link: '/examples/combat.md' }
+        ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/JacobRex/limitlessrpg' }
     ]
   }
 })
