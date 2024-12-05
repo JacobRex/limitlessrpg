@@ -15,59 +15,56 @@ Usage is a simplified manner of keeping track of how much of a consumable item o
 ## Melee Weapons
 
 #### Attacking
-Characters engage in Melee combat by making either an Agility, Strength or Dexterity Checks to determine who is the attacker and defender. The Stat they chose to use changes *how* they're using their weapon which affects the weapon's Attack Power and could have narrative impact at the GM's discretion.
+An Agility check determines if you're the attacker and defender for that Round. This is a wide ranging check that accounts for your ability to dodge, weave, strike, parry, block, and more until a critical moment occurs when one of you finds an opening and takes it.
 
-* **Agility**: for speed and finesse, focusing on quick strikes
-* **Strength**: powerful, heavy swings or thrusts. (This requires two handing the weapon)
-* **Dexterity**: focused and precise attacks
-
-| Successes | Outcome                                   |
-|:----------|:------------------------------------------|
-| 0         | You are defender, with only passive defenses |
-| 1         | Partial success at GM's discretion        |
-| 2         | You are the attacker, and defender may only use passive defenses |
+| Successes | Outcome              |
+|:----------|:---------------------|
+| 0         | You are the defender |
+| 1         | GM's choice          |
+| 2         | You are the attacker |
 
 See the [Combat](/rules/combat) section for more information.
+
+#### Damage
+Weapon damage is
 
 #### Defending
 Melee weapons can be used in lieu of Shields to defend against incoming damage from melee attacks when the target is able to defend. So long as a character is armed with a melee weapon and ready and able to defend, they have 1 Defense.
 
-#### Two Handing
-When a Melee Weapon is held in both hands, its Strength requirement is reduced by 3.
-
 ### Swords
-| Swords         | STR ATP | AGI ATP | DEX ATP | REQ STR | REQ DEX |
-|----------------|:-------:|---------|---------|:-------:|:-------:|
-| Dagger         | 1       | 1       | 1       | 6       | 9       |
-| Rapier         | 2       | 1       | 2       | 8       | 13      |
-| Estoc          | 2       | 1       | 3       | 12      | 13      |
-| Short Sword    | 2       | 2       | 1       | 11      | 11      |
-| Longsword      | 3       | 2       | 2       | 13      | 11      |
-| Claymore       | 4       | 2       | 2       | 15      | 11      |
-| Greatsword     | 5       | 3       | 2       | 17      | 11      |
+| Swords           | ATP | Weight |
+|------------------|:---:|:------:|
+| Dagger¹          | 1   | 1      |
+| Rapier           | 2   | 1      |
+| Sword            | 3   | 2      |
+| Longsword        | 4   | 3      |
+| Two-Handed Sword | 5   | 4      |
+1. Can be thrown to a nearby location with a DEX check
 
 ### Axes
-| Axes           | STR ATP | AGI ATP | DEX ATP | REQ STR | REQ DEX |
-|----------------|:-------:|:-------:|---------|:-------:|:-------:|
-| Hand Axe       | 2       | 2       | 1       | 10      | 8       |
-| Battle Axe     | 4       | 2       | 1       | 16      | 8       |
-| Greataxe       | 6       | 2       | 1       | 18      | 8       |
+| Axes             | ATP | Weight |
+|------------------|:---:|:------:|
+| Hatchet¹         | 2   | 1      |
+| Axe              | 3   | 2      |
+| Battle Axe       | 4   | 3      |
+| Great Axe        | 6   | 5      |
+1. Can be thrown to a nearby location with a STR check
 
 ### Maces & Clubs
 Blunt weapons count all Defense from Armor as 1.
 
-| Maces          | STR ATP | AGI ATP | DEX ATP | REQ STR | REQ DEX |
-|----------------|:-------:|:-------:|---------|:-------:|:-------:|
-| Club           | 2       | 2       | 0       | 10      | 7       |
-| Flail          | 2       | 2       | 0       | 10      | 13      |
-| Mace           | 2       | 2       | 0       | 12      | 7       |
-| Greatmace      | 4       | 2       | 0       | 19      | 7       |
+| Maces            | ATP | Weight |
+|------------------|:---:|:------:|
+| Club             | 1   | 1      |
+| Spiked Club      | 2   | 1      |
+| Flail            | 3   | 2      |
+| Mace             | 3   | 2      |
 
 ## Ranged Weapons
-Unlike melee weapons, which can be used one handed or two handed, ranged weapons always require two hands and ammunition to operare and posses no melee capabilities.
+Ranged weapons require two hands and ammunition to operare and posses no melee capabilities.
 
 #### Attacking
-Characters attack with ranged weapons by making a Dexterity Checks and by rolling the Usage die for their ammunition.
+Characters attack with ranged weapons by making DEX Checks and by rolling the Usage die for their ammunition.
 
 | Successes | Outcome                              |
 |:----------|:-------------------------------------|
@@ -76,46 +73,40 @@ Characters attack with ranged weapons by making a Dexterity Checks and by rollin
 | 2         | You hit and the target cannot Defend |
 
 #### Range
-The range of the target determines the Difficulty of the shot. See [Movement & Distance](/rules/combat.html#movement-distance) for more information.
-
-| Name    | Difficulty               |
-|:--------|:------------------------ |
-| Close   | Difficult                 |
-| Nearby  | Standard                 |
-| Far     | Difficult to Challenging |
-| Distant | Daunting                 |
+The range of the target should affect the Difficulty of the shot at the GM's discretion. See [Movement & Distance](/rules/combat.html#movement-distance) for more information.
 
 #### Cover
 Cover increases the Difficulty of ranged attacks:
 
-| Cover   | Difficulty  |
-| ------- | ----------- |
-| 0-10%   | Standard    |
-| 10-50%  | Difficult   |
-| 50%-75% | Challenging |
-| 75%+    | Daunting    |
-| 100%    | Impossible  |
+| Cover   | Difficulty |
+| ------- | ---------- |
+| 0%-25%  | 1          |
+| 25%-50% | 2-5        |
+| 50%-75% | 6-10       |
+| 75%+    | 10+        |
+| 100%    | Impossible |
 
 #### Called Shots
 You can choose location to target prior to making your Combat Check, but it will introduce a Difficulty determined by the GM.
 
 ### Bows
-| Bows           | ATP | REQ STR | REQ DEX |
-|----------------|-----|:-------:|:-------:|
-| Shortbow       | 1   | 7       | 12      |
-| Composite Bow  | 2   | 10      | 13      |
-| Longbow        | 3   | 13      | 14      |
-| Warbow         | 3   | 14      | 12      |
+Bows damage is affected by Might.
+
+| Bows           | ATP | Weight |
+|----------------|:---:|:------:|
+| Shortbow       | 2   | 2      |
+| Composite Bow  | 3   | 2      |
+| Longbow        | 5   | 2      |
 
 ### Crossbows
-Unlike bows, crossbows use a bolt and are fired mechanically, so they need less Strength and Dexterity to use effectively. However, once fired, they will need to be reloaded. Reloading a crossbow takes one round or 2 rounds for the Heavy Crossbow.
+Unlike bows, crossbows use a bolt and are fired mechanically, so their ATP is not impacted by your Might. However, once fired, they will need to be reloaded. Reloading a crossbow takes one round or 2 rounds for the Heavy Crossbow.
 
-| Bows            | ATP | REQ STR | REQ DEX |
-|---------------- |-----|:-------:|:-------:|
-| Hand Crossbow¹  | 1   | 7       | 10      |
-| Light Crossbow  | 2   | 8       | 10      |
-| Crossbow        | 3   | 10      | 10      |
-| Heavy Crossbow² | 4   | 12      | 10      |
+| Bows            | ATP | Weight |
+|---------------- |:---:|:------:|
+| Hand Crossbow¹  | 2   | 1      |
+| Light Crossbow  | 3   | 2      |
+| Crossbow        | 4   | 3      |
+| Heavy Crossbow² | 6   | 5      |
 
 1. One-handed weapon
 2. 2 rounds to reload
@@ -124,54 +115,51 @@ Unlike bows, crossbows use a bolt and are fired mechanically, so they need less 
 Armor provides passive protection by reducing incoming damage to the body part it protects.
 
 ### Helms
-| Type               | DEF | END |
-| ------------------ |:---:|:---:|
-| Leather Cap        | 1   | 3   |
-| Leather Helm       | 2   | 6   |
-| Chain Hood         | 3   | 10  |
-| Steel Helm         | 4   | 12  |
+| Type               | DEF | Weight |
+| ------------------ |:---:|:------:|
+| Leather Helm       | 1   | 1      |
+| Chain Hood         | 2   | 2      |
+| Steel Helm         | 3   | 2      |
 
 ### Chests
-| Type               | DEF | END |
-| ------------------ |:---:|:---:|
-| Gambeson           | 1   | 3   |
-| Leather Armor      | 1   | 8   |
-| Hard Leather Armor | 2   | 10  |
-| Chain Armor        | 3   | 12  |
-| Steel Armor        | 4   | 14  |
+| Type               | DEF | Weight |
+| ------------------ |:---:|:------:|
+| Gambeson           | 1   | -      |
+| Leather Armor      | 1   | 2      |
+| Chain Armor        | 3   | 2      |
+| Steel Armor        | 4   | 3      |
 
 ### Gauntlets
-| Type              | DEF | END |
-| ----------------- |:---:|:---:|
-| Leather Gloves    | 1   | 3   |
-| Leather Gauntlets | 2   | 6   |
-| Steel Gauntlets   | 3   | 12  |
+| Type              | DEF | Weight |
+| ----------------- |:---:|:------:|
+| Leather Gloves    | 1   | 1      |
+| Chain Gauntlets   | 2   | 2      |
+| Steel Gauntlets   | 3   | 2      |
 
 ### Leggings
-| Type               | DEF | END |
-| ------------------ |:---:|:---:|
-| Leather Boots      | 1   | 3   |
-| Hard Leather Boots | 2   | 9   |
-| Chain Leggings     | 3   | 10  |
-| Plate Leggings     | 4   | 12  |
+| Type               | DEF | Weight |
+| ------------------ |:---:|:------:|
+| Leather Boots      | 2   | 1      | 5
+| Chain Leggings     | 3   | 2      | 8
+| Steel Leggings     | 4   | 3      | 10
 
 ### Shields
 Shields are defensive equipment that reduce incoming Damage when the target is able to Defend. Shields can also grant the defender cover when they're focusing their attention on a ranged attacker.
 
-| Shields       | DEF | STR | Notes     |
-| ------------- |:---:|:---:|:--------- |
-| Buckler       | 1   | 7   | 10% Cover |
-| Wooden Shield | 1   | 8   | 25% Cover |
-| Heater Shield | 2   | 12  | 25% Cover |
-| Kite Shield   | 2   | 14  | 50% Cover |
-| Tower Shield  | 2   | 15  | 75% Cover |
+| Shields       | DEF | Weight | Cover |
+| ------------- |:---:|:------:|:----- |
+| Buckler       | 1   | 1      | 10%   |
+| Wooden Shield | 1   | 1      | 25%   |
+| Heater Shield | 2   | 2      | 25%   |
+| Kite Shield   | 2   | 2      | 50%   |
+| Tower Shield  | 2   | 3      | 75%   |
 
 ## Gear
 
 | Gear            | Cost | Usage | Notes             |
 |-----------------|:----:|:-----:|-------------------|
 | Arrows          | 20   | d10   |                   |
-| Backpack        | 10   | -     | Carry +3 extra    |
+| Backpack        | 10   | -     | -                 |
 | Bedroll         | 10   | -     | Difficult sleep   |
 | Bible           | 50   | -     | -                 |
 | Bolts           | 20   | d10   |                   |
@@ -185,7 +173,7 @@ Shields are defensive equipment that reduce incoming Damage when the target is a
 | Quiver          | 5    | -     | -                 |
 | Rosary          | 10   | -     | -                 |
 | Tankard         | -    | -     | -                 |
-| Tent            | 300  | -     | 2h setup. Standard sleep |
+| Tent            | 300  | -     | Standard sleep    |
 | Torches (5)     | 1    | d6/T  | T = Torch         |
 | Wineskin        | 1    | d6    | -                 |
 | 10ft Pole       | 1    | -     | -                 |

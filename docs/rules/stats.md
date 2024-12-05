@@ -11,11 +11,11 @@ You'll use Strength to...
 * Apply force to objects and push, pull, lift, or break them
 * Peform atheltic actions like climbing, throwing, grappling etc
 
-#### Power
-When rolling melee damage, you will be limited by your Power or your weapon's Attack Power, whichever is lower. Your Power is STR/4 rounded down. See [Equipment](/rules/equipment) for more information.
+#### Might
+When rolling damage for melee weapons or bows, you will be limited by your Might or your weapon's Attack Power, whichever is lower. Your Might is STR/3 rounded down. See [Equipment](/rules/equipment) for more information.
 
 #### Unarmed Damage
-Your unarmed damage is the highest of Xd6 where X is your Power. If the highest number in the damage pool is a 6, add 1d6 to the damage. Repeat this until something other than a 6 is rolled.
+Your unarmed damage is the highest of Xd6 where X is your Might. If the highest number in the damage pool is a 6, add 1d6 to the damage. Repeat this until something other than a 6 is rolled.
 
 ## Agility
 Agility (AGI) describes your Character's atheleticism & nimbleness. It determines how easily they can react quickly or perform certain physical feats.
@@ -56,12 +56,12 @@ You'll use Vigor to...
 Endurance (END) describes your Character's hardiness. It determines how much of a burden they can bear and what they can withstand.
 
 You'll use Endurance to...
-* Determine how many items you can carry without penalty
+* Determine how much equipment you can carry without penalty
 * Withstand becoming staggered or taking a lethal blow
 * Endure pain, fatigue, heat, cold, hunger, thirst, hold your breath, etc
 
 #### Burden
-Burden is a measurement of how hindered you are by the Equipment you're carrying. Your Burden is equal to the number of items you're carrying in excess of your END. The Difficulty of all Combat, Strength, Agility, and Dextertity Checks is increased by your Burden.
+Burden is a measurement of how hindered you are by the Equipment you're carrying. Your Burden is equal to the weight of Equipment you're carrying in excess of your END. The Difficulty of all physical checks is increased by your Burden.
 
 ## Intelligence
 Intelligence (INT) describes your Character's cleverness & thinking ability. It determines how easily they can understand, process or recall information.
