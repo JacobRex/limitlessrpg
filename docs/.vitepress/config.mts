@@ -22,7 +22,7 @@ export default defineConfig({
         text: 'Getting Started',
         items: [
           { text: 'How to Play', link: '/getting-started/core-mechanic' },
-          { text: 'Character Sheet', link: '/limitlessrpg/CharacterSheet.pdf' },
+          { text: 'Character Sheet', link: '/limitlessrpg/LIMITLESS_CharacterSheet.pdf' },
         ]
       },
       {
