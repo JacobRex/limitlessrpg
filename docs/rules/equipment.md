@@ -1,5 +1,5 @@
 # Equipment
-Equipment refers to Weapons, Armor, and Shields and Gear that may be held or equipped by your Character. LIMITLESS doesn't prevent you from using any piece of equipment, but you will need to meet that Equipment's STR and DEX requirements to use it without Penalty. Your Burden is increased for each point in the Requirements you fail to meet for your weapons and armor.
+Equipment refers to Weapons, Armor, and Shields and Gear that may be held or equipped by your Character. LIMITLESS doesn't prevent you from using any piece of equipment, but you will need to factor in Might and your Load limit to properly utilize Equipment.
 
 ## Glossary
 
