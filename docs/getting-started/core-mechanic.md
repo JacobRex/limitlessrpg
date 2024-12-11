@@ -26,5 +26,8 @@ A Check's Difficulty is the lowest number a dice can roll and be counted as a Su
 
 Your GM may determine that a Check is impossible and no roll can be made.
 
+#### Burden
+Your Burden represents the total cumulative Difficulties you experience due to factors like sickness, injury, or carrying excessive gear. This Difficulty affects all your Checks.
+
 ### Ease
 If an action is certain and there's no risk or time pressure, the GM shouldn’t call for a Check.

@@ -1,13 +1,13 @@
 # Introduction
 
-Limitless is a streamlined roleplaying system designed to be used in your next game. It offers a player facing dice pool mechanic thats easy for beginners and deep enough for veterans.
+LIMITLESS is a streamlined roleplaying system designed to be used in your next game. It offers a player facing dice pool mechanic thats easy for beginners and deep enough for veterans.
 
-Use Limitless in your game by adding the text "A [Limitless](https://jacobrex.itch.io/limitless) roleplaying game" somewhere in your document.
+Use LIMITLESS in your game by adding the text "A [LIMITLESS](https://jacobrex.itch.io/LIMITLESS) roleplaying game" somewhere in your document.
 
 Cheers!
 
 ## Overview
-Limitless was written with these philosophies in mind.
+LIMITLESS was written with these philosophies in mind.
 
 ### No Classes
 Your Character's abilities are determined by their Stats and Equipment.
@@ -34,7 +34,7 @@ Every weapon has the potential to do lethal damage. When you are on the battlefi
 Magic is mysterious & unweildly and requires Checks to cast. Failure results in hilarious or dangerous consequences!
 
 ### Open Sourced
-Limitless is released under the Open RPG Creative license (“ORC License”) for others to use.
+LIMITLESS is released under the Open RPG Creative license (“ORC License”) for others to use.
 
 ## Acknowledgements
 * Many influences from [The Black Hack](https://the-black-hack.jehaisleprintemps.net/) by David Black

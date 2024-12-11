@@ -1,41 +1,33 @@
 # Equipment
-Equipment refers to Weapons, Armor, and Shields and Gear that may be held or equipped by your Character. Limitless doesn't prevent you from using any piece of equipment, but you will need to meet that Equipment's STR and DEX requirements to use it without Penalty. Your Burden is increased for each point in the Requirements you fail to meet for your weapons and armor.
+Equipment refers to Weapons, Armor, and Shields and Gear that may be held or equipped by your Character. LIMITLESS doesn't prevent you from using any piece of equipment, but you will need to meet that Equipment's STR and DEX requirements to use it without Penalty. Your Burden is increased for each point in the Requirements you fail to meet for your weapons and armor.
 
 ## Glossary
+
+### Armor
+Armor passively increases the Poise of the body part it protects, making it less likely to become Wounded when struck. This makes Armor absolutely essential for Combat.
 
 ### Attack Power
 Attack Power (ATP) is a measure of how effective a weapon is at doing damage. The damage dealt by a weapon is the highest of Xd10 where X is the weapon's Attack Power. If the highest number in the damage pool is a 10, add 1d10 to the damage. Repeat this until something other than a 10 is rolled.
 
 ### Defense
-Defense prevents incoming damage and is rolled at the same time as Attack. The damage prevented is the highest of Xd6 where X is the defendants total Defense. If the highest number in the defense pool is a 6, add 1d6 to the Defense. Repeat this until something other than a 6 is rolled. If a Defense roll is higher than an Attack roll, then the defender has made a Counter Attack with the surplus defense. See the Combat section for more information.
+Defense prevents incoming damage and is rolled at the same time as damage rolls. The damage prevented is the highest of Xd6 where X is the defendants total Defense. If the highest number in the defense pool is a 6, add 1d6 to the Defense. Repeat this until something other than a 6 is rolled. If a Defense roll is equal to or higher than an Attack roll, then the attack has been completely deflected.
 
 ### Usage
 Usage is a simplified manner of keeping track of how much of a consumable item or ammunition remains. This will be represented by some die ranging from d4-d20. Whenever you use that item, roll its usage die. If the die rolled a 1 or 2, then the die goes down by one size from d20 > d12 > d10 > d8 > d6 > d4. When a 1 or 2 is rolled on a d4, then item is spent and no more of it remains.
 
 ## Melee Weapons
 
-#### Attacking
-An Agility check determines if you're the attacker and defender for that Round. This is a wide ranging check that accounts for your ability to dodge, weave, strike, parry, block, and more until a critical moment occurs when one of you finds an opening and takes it.
-
-| Successes | Outcome              |
-|:----------|:---------------------|
-| 0         | You are the defender |
-| 1         | GM's choice          |
-| 2         | You are the attacker |
-
-See the [Combat](/rules/combat) section for more information.
-
 #### Damage
-Weapon damage is
+Melee Weapon damage is your Weapon's Attack Power or your Might, whichever is lower.
 
 #### Defending
-Melee weapons can be used in lieu of Shields to defend against incoming damage from melee attacks when the target is able to defend. So long as a character is armed with a melee weapon and ready and able to defend, they have 1 Defense.
+Melee weapons can be used in lieu of Shields to defend against incoming damage from melee attacks when the target is able to defend. So long as a character is armed with a melee weapon and ready and able to defend, they have 1 Defense. See [Combat](/rules/combat) for more information about defending.
 
 ### Swords
 | Swords           | ATP | Weight |
 |------------------|:---:|:------:|
 | Dagger¹          | 1   | 1      |
-| Rapier           | 2   | 1      |
+| Rapier           | 2   | 2      |
 | Sword            | 3   | 2      |
 | Longsword        | 4   | 3      |
 | Two-Handed Sword | 5   | 4      |
@@ -44,21 +36,29 @@ Melee weapons can be used in lieu of Shields to defend against incoming damage f
 ### Axes
 | Axes             | ATP | Weight |
 |------------------|:---:|:------:|
-| Hatchet¹         | 2   | 1      |
-| Axe              | 3   | 2      |
+| Hatchet¹         | 1   | 1      |
+| Axe              | 2   | 2      |
 | Battle Axe       | 4   | 3      |
 | Great Axe        | 6   | 5      |
 1. Can be thrown to a nearby location with a STR check
 
+### Polearms
+| Axes             | ATP | Weight |
+|------------------|:---:|:------:|
+| Spear¹           | 2   | 2      |
+| Halberd          | 5   | 5      |
+1. Can be thrown to a nearby location with a STR check
+
 ### Maces & Clubs
-Blunt weapons count all Defense from Armor as 1.
+Blunt Weapons reduce all Poise granted from Armor to 1.
 
 | Maces            | ATP | Weight |
 |------------------|:---:|:------:|
-| Club             | 1   | 1      |
-| Spiked Club      | 2   | 1      |
-| Flail            | 3   | 2      |
-| Mace             | 3   | 2      |
+| Club*            | 1   | 1      |
+| Spiked Club*     | 2   | 1      |
+| Flail            | 2   | 2      |
+| Mace             | 2   | 2      |
+* Breaks if a 10 is rolled for damage
 
 ## Ranged Weapons
 Ranged weapons require two hands and ammunition to operare and posses no melee capabilities.
@@ -71,6 +71,9 @@ Characters attack with ranged weapons by making DEX Checks and by rolling the Us
 | 0         | Miss                                 |
 | 1         | You hit but the target can Defend    |
 | 2         | You hit and the target cannot Defend |
+
+#### Damage
+Ranged Weapon damage is based on the Weapon and Ammo.
 
 #### Range
 The range of the target should affect the Difficulty of the shot at the GM's discretion. See [Movement & Distance](/rules/combat.html#movement-distance) for more information.
@@ -115,44 +118,48 @@ Unlike bows, crossbows use a bolt and are fired mechanically, so their ATP is no
 Armor provides passive protection by reducing incoming damage to the body part it protects.
 
 ### Helms
-| Type               | DEF | Weight |
-| ------------------ |:---:|:------:|
-| Leather Helm       | 1   | 1      |
-| Chain Hood         | 2   | 2      |
-| Steel Helm         | 3   | 2      |
+| Type               | Poise | Weight |
+| ------------------ |:-----:|:------:|
+| Arming Cap         | 1     | 1      |
+| Leather Helm       | 2     | 1      |
+| Chain Hood         | 3     | 2      |
+| Steel Helm         | 4     | 2      |
 
 ### Chests
-| Type               | DEF | Weight |
-| ------------------ |:---:|:------:|
-| Gambeson           | 1   | -      |
-| Leather Armor      | 1   | 2      |
-| Chain Armor        | 3   | 2      |
-| Steel Armor        | 4   | 3      |
+| Type               | Poise | Weight |
+| ------------------ |:-----:|:------:|
+| Gambeson*          | 1     | 1      |
+| Leather Armor      | 2     | 2      |
+| Chain Armor        | 3     | 3      |
+| Steel Armor        | 4     | 4      |
 
 ### Gauntlets
-| Type              | DEF | Weight |
-| ----------------- |:---:|:------:|
-| Leather Gloves    | 1   | 1      |
-| Chain Gauntlets   | 2   | 2      |
-| Steel Gauntlets   | 3   | 2      |
+| Type              | Poise | Weight |
+| ----------------- |:-----:|:------:|
+| Leather Gloves    | 1     | 1      |
+| Leather Gauntlets | 2     | 1      |
+| Chain Gauntlets   | 3     | 2      |
+| Steel Gauntlets   | 4     | 2      |
 
 ### Leggings
-| Type               | DEF | Weight |
-| ------------------ |:---:|:------:|
-| Leather Boots      | 2   | 1      | 5
-| Chain Leggings     | 3   | 2      | 8
-| Steel Leggings     | 4   | 3      | 10
+| Type               | Poise | Weight |
+| ------------------ |:-----:|:------:|
+| Leather Boots      | 1     | 1      |
+| Leather Armor      | 2     | 2      |
+| Chain Leggings     | 3     | 3      |
+| Steel Leggings     | 4     | 4      |
 
 ### Shields
-Shields are defensive equipment that reduce incoming Damage when the target is able to Defend. Shields can also grant the defender cover when they're focusing their attention on a ranged attacker.
+Shields are defensive equipment that reduce incoming Damage when the target is able to Defend. Shields can also grant the defender cover when they're focusing their attention on a ranged attacker. See [Combat](/rules/combat) for more information about defending.
 
 | Shields       | DEF | Weight | Cover |
 | ------------- |:---:|:------:|:----- |
 | Buckler       | 1   | 1      | 10%   |
-| Wooden Shield | 1   | 1      | 25%   |
-| Heater Shield | 2   | 2      | 25%   |
-| Kite Shield   | 2   | 2      | 50%   |
-| Tower Shield  | 2   | 3      | 75%   |
+| Wood Shield   | 2   | 2      | 25%   |
+| Heater Shield | 2   | 3      | 25%   |
+| Kite Shield   | 2   | 3      | 50%   |
+| Tower Shield  | 2   | 4      | 75%   |
+* Breaks if a 6 is rolled for Defense
 
 ## Gear
 

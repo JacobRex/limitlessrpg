@@ -1,6 +1,6 @@
 {
   "name": "limitless",
-  "version": "2.0.0",
+  "version": "3 .0.0",
   "description": "Limitless is a streamlined roleplaying system designed to be used in your next game. It offers a player facing dice pool mechanic thats easy for beginners and deep enough for veterans.",
   "main": "index.js",
   "scripts": {

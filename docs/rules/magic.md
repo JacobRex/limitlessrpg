@@ -1,5 +1,5 @@
 # Magic
-Magic in Limitless is powerful and hard to wield properly and requires a roll like any other combat check.
+Magic in LIMITLESS is powerful and hard to wield properly and requires a roll like any other combat check.
 
 ## Magic Checks
 To use Magic, describe what you want to happen and your GM will determine the Check. Depending on the game world, this could be an Intelligence check for tome or memorization based magic, Charisma for inner-force magic, or perhaps Wisdom for faith based magic.

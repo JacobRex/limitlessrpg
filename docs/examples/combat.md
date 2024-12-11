@@ -1,5 +1,5 @@
 # Example of Combat
-In this example, we see how a round of combat can take place. Several interesting things happen in this combat illustrating the flexibility of Limitless:
+In this example, we see how a round of combat can take place. Several interesting things happen in this combat illustrating the flexibility of LIMITLESS:
 
 * Characters all state what they plan to do at the start of the round and roll at the same time
 * Initiative is determined by rolls from highest to lowest
@@ -7,7 +7,7 @@ In this example, we see how a round of combat can take place. Several interestin
 * A damage roll crits, showing how weapons can be lethal at a moments notice
 * And the circumstances of an action change during combat
 
-All of this makes combat in Limitless flexible, creative and fast!
+All of this makes combat in LIMITLESS flexible, creative and fast!
 
 ---
 
