@@ -36,6 +36,15 @@ When taking melee damage while engaged with multiple enemies, the damage is incr
 
 ## Ranged Combat
 
+#### Attacking
+Characters attack with ranged weapons by making DEX Checks and by rolling the Usage die for their ammunition.
+
+| Successes | Outcome                              |
+|:----------|:-------------------------------------|
+| 0         | Miss                                 |
+| 1         | You hit but the target can Defend    |
+| 2         | You hit and the target cannot Defend |
+
 ## Movement & Distance
 The battlefield is broken into abstract distances of Close, Near, Far and Distant. You are actively enagaged in Combat with Close enemies. You can move to a Close or Nearby space as part of an action on your turn, peforming your action anywhere on that turn. Moving Far takes an entire turn. Distant Combatants have left the battlefield and would require a check to catch up to or find.
 

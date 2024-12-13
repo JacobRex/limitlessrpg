@@ -9,15 +9,15 @@ Damage rolls always involve rolling a d20 to determine where the hit landed. Bel
 | 6-9   | Arms     | 4     |
 | 1-5   | Legs     | 5     |
 
-### Poise and Damage
-Poise represents your ability to withstand damage without being Wounded. It acts as a threshold:
+### Wound Threshold
+Your Endurance Rank set's your Wound Threshold, which is how much damage you can sustain before becoming wounded.
 
-| Damage   | Effect    |
-| -------- | --------- |
-| < Poise  | Staggered |
-| = Poise  | 1 Wound   |
-| 2x Poise | 2 Wound   |
-| 3x Poise | 3 Wounds  |
+| Damage  | Effect    |
+| ------- | --------- |
+| < Rank  | Staggered |
+| = Rank  | 1 Wound   |
+| 2x Rank | 2 Wound   |
+| 3x Rank | 3 Wounds  |
 
 ### Staggered
 Staggering occurs whenever you take damage, regardless of its severity. It represents a temporary disruption, such as being knocked off balance or interrupted. While Staggered, you cannot move or utilize active defenses and begin each of your turns with a Vigor Check:
@@ -29,16 +29,19 @@ Staggering occurs whenever you take damage, regardless of its severity. It repre
 | 2         | You are no longer Staggered and take your turn as normal |
 
 ### Wounds
-Wounds are the result of damage exceeding your Poise. They represent an actual Injury to your person that hinders your ability to function, such as a cut or broken bone. Each Wound you suffer increases the Burden by 2.
+Wounds represent an injury to your person that hinders your ability to function, such as a cut or broken bone. Each Wound you suffer increases your Burden by 2.
 
 ### Knockout (KO)
-Whenever a Wound causes a body part to reach or exceed its maximum Wound level, you are KO'd. Immediately make a Vigor check:
+Whenever a Wound causes a body part to reach or exceed its maximum Wound level, make a Vigor:
 
-| Successes | Outcome                                                                  |
-| --------- | ------------------------------------------------------------------------ |
-| 0         | Instant death for hits to the head; otherwise, a death speech is allowed |
-| 1         | You suffer 1 Permanent Wound                                             |
-| 2         | You remain KO'd but gain no permanent Wounds                             |
+| Successes | Outcome                                                                           |
+| --------- | --------------------------------------------------------------------------------- |
+| 0         | Instant death for hits to the head or chest; otherwise, a death speech is allowed |
+| 1         | You awake 1d6 hours later with a Permanent Wound to the affected area             |
+| 2         | You awake 1d6 hours later                                                         |
+
+### Permanent Wounds
+A Permanent Wound functions just like a Wound but never heals naturally with rest.
 
 If a body part ever becomes fully inflicted with Permanent Wounds, you die.
 
@@ -46,4 +49,6 @@ If a body part ever becomes fully inflicted with Permanent Wounds, you die.
 An attack against a helpless opponent may target any location and be lethal if the attacker desires.
 
 ## Recovery
-After resting with proper accommodations for a number of weeks equal to your Wounds, make a Vigor check. You recover 1 Wound for each Success.
+After resting for a number of weeks equal to your Wounds, make a Vigor check. You recover 1 Wound for each Success.
+
+Resting means you take on no physical activity beyond eating, sleeping, and conversing with people.
