@@ -12,8 +12,7 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'How to Play', link: '/getting-started/core-mechanic' },
-      { text: 'Rules', link: '/rules/stats' },
+      { text: 'Rules', link: '/getting-started/how-to-play' },
       { text: 'Character Sheet', link: '/limitlessrpg/LIMITLESS_CharacterSheet.pdf' },
     ],
 
@@ -21,26 +20,22 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
-          { text: 'How to Play', link: '/getting-started/core-mechanic' },
+          { text: 'Introduction', link: '/getting-started/introduction' },
+          { text: 'How to Play', link: '/getting-started/how-to-play' },
           { text: 'Character Sheet', link: '/limitlessrpg/LIMITLESS_CharacterSheet.pdf' },
         ]
       },
       {
         text: 'Rules',
         items: [
+          { text: 'Core Mechanic', link: '/rules/core-mechanic' },
           { text: 'Character Stats', link: '/rules/stats' },
           { text: 'Character Creation', link: '/rules/character-creation' },
-          { text: 'Damage & Recovery', link: '/rules/damage-and-recovery' },
+          { text: 'Stamina, Damage & Recovery', link: '/rules/stamina-damage-recovery' },
           { text: 'Advancement', link: '/rules/advancement' },
           { text: 'Magic', link: '/rules/magic' },
           { text: 'Equipment', link: '/rules/equipment' },
           { text: 'Combat', link: '/rules/combat' },
-        ]
-      },
-      {
-        text: 'Examples of Play',
-        items: [
-          { text: 'Example of Combat', link: '/examples/combat' }
         ]
       }
     ],
