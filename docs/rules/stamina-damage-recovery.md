@@ -22,7 +22,7 @@ Whenever you suffer damage, move that many tokens from your Stamina pool to your
 Every time your stamina pool reaches 0, your max stamina is decreased by 1. Move a stamina token off your character sheet. 
 
 ## Recovery During Combat
-At the Start of each round of Combat, you recover Stamina equal to your Vigor Rank.
+At the Start of each round of Combat, you recover Stamina equal to your Vigor/3 rounded down.
 
 You can choose to catch your breath and recover all your Fatigued Stamina but you can’t move or attack during this turn.
 
