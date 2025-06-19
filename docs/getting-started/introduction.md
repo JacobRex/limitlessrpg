@@ -1,44 +1,14 @@
 # Introduction
+After years of playing tabletop games, I kept running into the same frustrations: d20 rolls felt too binary and natural 1s & 20s made no sense. Why should a master archer have the same chance to total fail as a novice? I wanted a system where experience matters — so I built LIMITLESS around a 2d20 roll under mechanic.
 
-LIMITLESS is a streamlined roleplaying system designed to be used in your next game. It offers a player facing dice pool mechanic thats easy for beginners and deep enough for veterans.
+I also ditched classes, skills, and spells. Players shouldn’t have to shoehorn their characters into predefined boxes. Instead, I designed a flexible stat system that lets you build whoever you want.
 
-Use LIMITLESS in your game by adding the text "A [LIMITLESS](https://jacobrex.itch.io/LIMITLESS) roleplaying game" somewhere in your document.
+Math can slow a game to a crawl. I wanted something fast like [The Black Hack's](https://www.drivethrurpg.com/en/product/255088/the-black-hack-second-edition) roll-under system but with a way to adjust difficulty without piling on modifiers. That’s where Difficulty comes in: just roll under your stat and above the Difficulty. No math, no problem!
 
-Cheers!
+Hit points never felt right to me either. A knife in the hands of someone dangerous should be scary, not laughable. So I created [Deadly Weapons](https://jacobrex.itch.io/deadly-weapons), where weapons roll a d10 pool and take the highest roll with exploding die. Every hit can be deadly and every fight, meaningful.
 
-## Overview
-LIMITLESS was written with these philosophies in mind.
+Combat also needed a shake-up. Waiting around for your turn in a 3 hour slog just kills momentum. In LIMITLESS, a single roll handles attack, defense, and initiative making for streamlined and surprising combat every round.
 
-### No Classes
-Your Character's abilities are determined by their Stats and Equipment.
+And Armor C;ass? Why is it only provided by armor and shields? With [Deadly Weapons'](https://jacobrex.itch.io/deadly-weapons) defense system, armor provides passive defense and weapons & shields provide situational active defense. A barbarian in a loincloth with a sword is no longer defenseless!
 
-### No Skills
-Simply describe what your Character does and the GM will determine the Check.
-
-### No Levels
-Your Stats have a chance to increase as you play, making levels uneccessary.
-
-### No Waiting
-Initiative is determined by Combat Checks each round making the battlefield fun & fast paced.
-
-### No Math
-Checks resolve when dice roll *over* & *under* target numbers, making Modifiers unecessary.
-
-### Player Facing
-Checks create degrees of success, allowing Players to make all the Checks.
-
-### Deadly Combat
-Every weapon has the potential to do lethal damage. When you are on the battlefield you are literally fighting for your life!
-
-### Powerful Magic
-Magic is mysterious & unweildly and requires Checks to cast. Failure results in hilarious or dangerous consequences!
-
-### Open Sourced
-LIMITLESS is released under the Open RPG Creative license (“ORC License”) for others to use.
-
-## Acknowledgements
-* Many influences from [The Black Hack](https://the-black-hack.jehaisleprintemps.net/) by David Black
-* Many influences from "The Riddle of Steel" by Jacob Norwood
-* Warning: this game contains [Deadly Weapons](https://jacobrex.itch.io/deadly-weapons).
-
-© Copyright by Jacob Rex
+LIMITLESS is the system I always wanted to play: fast, flexible, and deadly. I hope you enjoy it. Now go forth and make something epic!
