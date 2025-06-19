@@ -13,27 +13,20 @@ Choose one of the arrays below and apply the stats however you like.
 | Dual Focus | 14 + 14 + 12 + 11 + 11 + 10 + 10 + 9 + 9 |
 | Balanced   | 13 + 13 + 13 + 12 + 11 + 11 + 10 + 9 + 8 |
 
-### High Single Stat
-
-### Two reasonably high stats
-
-### Three high stats
-|
-
 ## Professions
-Choose a Profession to determine your starting Equipment and Stat Bonuses.
+Choose a Profession to determine your starting Equipment.
 
-| Profession | Equipment | Bonuses |
-|:---------- |:--------- |:------- |
-| Barbarian | Bastard Sword, Hide Armor |
-| Crusader | Chainmail, Arming Sword, Shield |
-| Friar | Robe, Rosary, Cross, Mace |
-| Footpad | Leather armor, Rapier, Dagger |
-| Knight | Plate, Sword, Shield |
-| Minstrel | Gambeson, Cittern, Rapier |
-| Sellsword | Leather Armor, Sword, Round Shield, Crossbow, d6 bolts |
-| Sorcerer | Robe, Quarterstaff, Dagger |
-| Wizard | Robe, Quarterstaff, Longsword |
+| Profession | Equipment |
+|:---------- |:--------- |
+| **Barbarian** | Bastard Sword or Battle Axe, Hide Armor |
+| **Crusader** | Chainmail, Arming Sword, Shield |
+| **Friar** | Robe, Rosary, Cross, Mace |
+| **Footpad** | Leather armor, Rapier, Dagger |
+| **Knight** | Plate, Sword, Shield |
+| **Minstrel** | Gambeson, Cittern, Rapier |
+| **Sellsword** | Leather Armor, Sword, Round Shield, Crossbow, d6 bolts |
+| **Sorcerer** | Robe, Dagger |
+| **Wizard** | Robe, Quarterstaff |
 
 ## Buy Equipment
 Every new character starts with 3d6 x 10 gold to purchase additional [Equipment or Gear](/rules/equipment).
