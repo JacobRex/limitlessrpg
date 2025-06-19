@@ -3,9 +3,9 @@ Whenever you attempt to do something in game with a consequence of failure, roll
 
 | Successes | Outcome           |
 |:----------|:------------------|
-| 0         | Failure           |
-| 1         | Success at a cost |
-| 2         | Success           |
+| **0**     | Failure           |
+| **1**     | Success at a cost |
+| **2**     | Success           |
 
 The outcome of a "Success at a cost" is determined by the GM based on the action and circumstances. This could mean that you pick the lock but break your tool, leap over the chasm but drop an item, or whatever fits the narrative.
 
@@ -16,10 +16,10 @@ A Check's Difficulty is the lowest number a dice can roll and be counted as a Su
 
 | Difficulty | Description |
 | ---------- | ----------- |
-| 1          | Standard    |
-| 2-5        | Difficult   |
-| 6-10       | Challenging |
-| 10+        | Daunting    |
+| **1**      | Standard    |
+| **2-5**    | Difficult   |
+| **6-10**   | Challenging |
+| **10+**    | Daunting    |
 
 Your GM may determine that a Check is simply impossible and no roll can be made.
 

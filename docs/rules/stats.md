@@ -6,7 +6,7 @@ Stats describe your character's physical and mental traits and range from 3 to 1
 Strength describes your Character's physical might. It dermines how powerful they are, and the limits of their athletic ability.
 
 You'll use Strength to...
-* Attack with heavy melee weapons
+* Increase damage with Strength weapons by half your Strength (rounded down)
 * Take actions like climbing, throwing, grappling etc
 * Apply force to objects and push, pull, lift, or break them
 
@@ -14,37 +14,36 @@ You'll use Strength to...
 Agility describes your Character's atheleticism & nimbleness. It determines how easily they can react quickly or perform certain physical feats.
 
 You'll use Agility to...
-* Attack with swift melee weapons
+* Make Combat Checks
 * Perform athletic or acrobatic actions like jump, run, tumble, etc
-* Avoid harm by dodging
+* Avoid harm by Dodging. See [combat](/rules/combat ) for more information.
 
 ### Dexterity
 Dexterity describes your Character's fine motor skills & hand-eye coordination. It determines how easily they can perform complex or precise actions.
 
 You'll use Dexterity to..
-* Attack with precise weapons
-* Attack with Ranged Weapons
+* Increase damage with Dexterity weapons by half your Dexterity (rounded down)
 * Perform careful actions like moving silently, balancing, hiding, etc
 * Perform complex actions like disabling devices, picking locks, tying a rope, picking a pocket, etc
 
 ### Vitality
 Vitality describes your Character's resilience and energy. It determines how much energy they have at their disposal and how reisistant they are to disease.
 
-* Determines your Stamina, which is equal to your Vitality
+* Determines your Life, which is equal to your Vitality
 * Resists disease, toxins, poison, infection, etc
 
 ### Endurance
 Endurance describes your Character's hardiness. It determines how much of a burden they can bear and what they can withstand.
 
-* Determine how much weight you can carry, which is equal to your Endurance
+* Reduce incoming damage by half your Endurance (rounded down)
+* Determine how much weight you can Equip without penalty, which is equal to your Endurance. Any weight beyond that adds to the Difficult of all Checks.
 * Resist physical hardship like pain, fatigue, heat, cold, hunger, thirst, holding your breath, etc
 
 ### Vigor
 Vigor describes your Character's health and fitness. It determines how easily they can recover or perish from injury.
 
 You'll use Vigor to...
-* Recover from being wounded
-* Recover Stamina while resting
+* Recover Life while resting
 * Recover from conditions like sickness, disease, being poisoned etc
 
 ### Intelligence

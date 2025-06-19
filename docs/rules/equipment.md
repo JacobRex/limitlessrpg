@@ -1,234 +1,98 @@
 # Equipment
 Equipment refers to Weapons, Armor, and Shields and Gear that may be held or equipped by your Character. LIMITLESS doesn't prevent you from using any piece of equipment, but you will need to factor in Might and your Load limit to properly utilize Equipment.
 
+## Glossary
+
 ### Attack
-Attack is a measure of how effective a weapon is at doing damage. The range represents how much damge it does base for 1 stamina and how many it can do when boosted (1 per stamina). The damage dealt by a weapon is the highest of Xd10 where X is the weapon's Attack. If the highest number in the damage pool is a 10, add 1d10 to the damage. Repeat this until something other than a 10 is rolled.
+Attack represents how damaging a Weapon is. Spend energy up to the Weapon’s Attack value to roll that many d10s. Take the highest roll as your damage. If you roll a 10, add another d10 to the damage and keep going until you something other than 10.
 
 ### Defense
-Defense prevents incoming damage and is rolled at the same time as damage rolls. The damage prevented is the highest of Xd6 where X is the defendants total Defense. If the highest number in the defense pool is a 6, add 1d6 to the Defense. Repeat this until something other than a 6 is rolled. If a Defense roll is equal to or higher than an Attack roll, then the attack has been completely deflected.
+Defense reduces incoming damage. Spend energy up to your weapon's and or shield's Defense value to roll that many d6s. Take the highest roll as your Defense. If you roll a 6, add another d6 and keep going until you roll less than 6. If your final result equals or beats the attacker’s damage, the attack is fully blocked.
 
 ### Usage
 Usage is a simplified manner of keeping track of how much of a consumable item or ammunition remains. This will be represented by some die ranging from d4-d20. Whenever you use that item, roll its usage die. If the die rolled a 1 or 2, then the die goes down by one size from d20 > d12 > d10 > d8 > d6 > d4. When a 1 or 2 is rolled on a d4, then item is spent and no more of it remains.
 
-| Keyword        | Description                                                        |
-| -------------- | ------------------------------------------------------------------ |
-| **Heavy**      | Needs two hands; does +1 die if fully committed                    |
-| **Swift**      | Can be used while retreating or dodging                            |
-| **Hooking**    | Pulls enemy off balance; grants ally advantage                     |
-| **Precise**    | Ignores 1 defense from armor                                       |
-| **Cumbersome** | Cannot be used to defend on the same turn                          |
-| **Brutal**     | If the highest die is 10, add +2 bonus damage instead of exploding |
-| **Versatile**  | Can use STR or DEX to attack                                       |
-| **Guarding**   | Always grants +1 defense passively when held                       |
-
-armor limits stamina recovery
+## Dual Weilding
+Dual weilding grants 
 
 ## Swords
 Swords are versatile melee weapons with good attack and defense.
 
-| Swords            | Attack (d10s) | Defense (d6s) | Affinity              |
-| ----------------- | ------------- | ------------- | --------------------- |
-| Dagger            | 1             | 0             | Dexterity             |
-| Rapier            | 1             | 1             | Dexterity             |
-| Arming Sword      | 2             | 1             | Agility               |
-| Broadsword        | 2             | 1             | Strength              |
-| Estoc             | 3             | 1             | Dexterity             |
-| Long Sword        | 3             | 2             | Strength              |
-| Bastard Sword     | 4             | 1             | Strength              |
-| Zweihander        | 5             | 1             | Strength              |
+| Swords                | Attack (d10s) | Defense (d6s) | Type      | Weight |
+| --------------------- | ------------- | ------------- | --------- | ------ |
+| **Dagger**            | 1             | 0             | Dexterity | 1      |
+| **Rapier**            | 1             | 1             | Dexterity | 1      |
+| **Sword**             | 2             | 1             | Strength  | 2      |
+| **Estoc**             | 2             | 1             | Dexterity | 2      |
+| **Long Sword**        | 3             | 2             | Strength  | 3      |
+| **Bastard Sword**     | 4             | 2             | Strength  | 4      |
+| **Zweihander**        | 5             | 2             | Strength  | 5      |
 
 ## Axes
 Axes are fearsome weapons that can do serious damage but offer no defense.
 
-| Axes              | Attack (d10s) | Defense (d6s) | Affinity              |
-| ----------------- | ------------- | ------------- | --------------------- |
-| Hatchet           | 2             | 0             | Strength              |
-| Axe               | 4             | 0             | Strength              |
-| Battle Axe        | 6             | 0             | Strength              |
+| Axes                  | Attack (d10s) | Defense (d6s) | Type      | Weight |
+| --------------------- | ------------- | ------------- | --------- | ------ |
+| **Hatchet**           | 1             | 0             | Strength  | 1      |
+| **Axe**               | 3             | 0             | Strength  | 3      |
+| **Battle Axe**        | 5             | 0             | Strength  | 5      |
+| **Great Axe**         | 7             | 0             | Strength  | 7      |
 
 ## Clubs
 Clubs reduce any armor protection to 1.
 
-| Clubs             | Attack (d10s) | Defense (d6s) | Affinity              |
-| ----------------- | ------------- | ------------- | --------------------- |
-| Club¹             | 1             | 0             | Strength              |
-| Spiked Club¹      | 2             | 0             | Strength              |
-| Flail²            | 2             | 0             | Dexterity             |
-| Mace              | 2             | 0             | Strength              |
-| Morning Star      | 2             | 0             | Strength              |
+| Clubs                 | Attack (d10s) | Defense (d6s) | Type      | Weight |
+| --------------------- | ------------- | ------------- | --------- | ------ |
+| **Club¹**             | 1             | 0             | Strength  | 1      |
+| **Spiked Club¹**      | 2             | 0             | Strength  | 2      |
+| **Flail²**            | 2             | 0             | Dexterity | 2      |
+| **Mace**              | 2             | 0             | Strength  | 2      |
+| **Morning Star**      | 2             | 0             | Strength  | 2      |
 1. Breaks if a 10 is rolled for damage
-2. Reduces Defenders Defense pool by 1
+2. Reduces Defenders Defense pool to 1
 
+## Shields
+Shields provide Defense when activated by spending energy as well as cover.
 
-| Shields           | Attack (d10s) | Defense (d6s) | Cover |
-| ----------------- | ------------- | ------------- | ----- |
-| **Buckler**       | 1             | 1             | 10%   |
-| **Round Shield**  | 1             | 2             | 25%   |
-| **Heater Shield** | 1             | 2             | 33%   |
-| **Kite Shield**   | 1             | 3             | 50%   |
-| **Tower Shield**  | 1             | 3             | 75%   |
+| Shields           | Defense (d6s) | Cover | Weight |
+| ----------------- | ------------- | ----- | ------ |
+| **Buckler**       | 1             | 10%   | 1      |
+| **Round Shield**  | 2             | 25%   | 2      |
+| **Heater Shield** | 3             | 33%   | 3      |
+| **Kite Shield**   | 3             | 50%   | 3      |
+| **Tower Shield**  | 3             | 75%   | 3      |
 
-| Bows               | Attack (d10s) | Defense | Affinity  | Notes                                      |
-| ------------------ | ------------- | ------- | --------- | ------------------------------------------ |
-| **Short Bow**      | 2             | –       | Dexterity | Light, fast, lower damage                  |
-| **Composite Bow**  | 3             | –       | Dexterity | Stronger, compact                          |
-| **Longbow**        | 4             | –       | Dexterity | High power, hard to use in confined spaces |
+## Bows
+Unlike Melee weapons, a bow must be fully drawn to be fired, so it always requires Stamina equal to the bow's attack to weild effectively.
+
+| Bows               | Attack (d10s) | Type      | Weight |
+| ------------------ | ------------- | --------- | ------ |
+| **Short Bow**      | 1             | Dexterity | 1      |
+| **Composite Bow**  | 2             | Dexterity | 2      |
+| **Longbow**        | 3             | Dexterity | 3      |
 
 
 ## Crossbows
-Unlike bows, crossbows use bolts and are fired mechanically, so no stamina is required to shoot. Additionally, once fired, they will need to be reloaded. Reloading a crossbow takes one round or 2 rounds for the Heavy Crossbow.
+Unlike Nows, Crossbows use bolts and are fired mechanically, and require no Energy to shoot. Additionally, once fired, they will need to be reloaded. Reloading a Crossbow takes one round and as much Energy as the Crossbow's Attack.
 
-| Crossbows          | Attack (d10s) | Defense | Affinity  |
-| ------------------ | ------------- | ------- | --------- |
-| **Hand Crossbow**  | 1             | –       | Dexterity |
-| **Crossbow**       | 3             | –       | Dexterity |
-| **Heavy Crossbow** | 5             | –       | Dexterity |
-
-| Equipment         | Weight (units) | Notes                           |
-| ----------------- | -------------- | ------------------------------- |
-| **Arming Sword**  | 2              | Reasonably light sword          |
-| **Broadsword**    | 3              | Slightly heavier, broader blade |
-| **Dagger**        | 1              | Very light                      |
-| **Buckler**       | 1              | Small shield                    |
-| **Round Shield**  | 3              | Medium shield                   |
-| **Tower Shield**  | 5              | Large shield, heavier           |
-| **Chainmail**     | 6              | Medium-heavy armor              |
-| **Leather Armor** | 3              | Lighter armor                   |
-| **Gambeson**      | 2              | Padded cloth armor, light       |
-| **Zweihander**    | 4              | Very heavy sword, two-handed    |
-| **Longbow**       | 2              | Moderate weight                 |
-
-
-
-
-
-
-
-
-
-
-
-
-----
-
-
-
-
-
-
-
-## Melee Weapons
-
-### Defending
-Melee weapons can be used in lieu of Shields to defend against incoming damage from melee attacks when the target is able to defend. So long as a character is armed with a melee weapon and ready and able to defend, they have 1 Defense. See [Combat](/rules/combat) for more information about defending.
-
-### Swords
-Swords are well balanced melee weapons with good attack and defense.
-| Swords           | Attack (d10s) | Defense (d6s)  | Affinity |
-|------------------|:------:|:--------:|:--------:|
-| Dagger¹          | 1      | 1        | Dexterity |
-| Rapier           | 1-2    | 1        | Dexterity |
-| Sword            | 2-3    | 1        | Agility  |
-| Estoc            | 2-3    | 1-2      | Agility |
-| Longsword        | 2-4    | 1-2      | Strength |
-| Two-Handed Sword | 3-5    | 1-2      | Strength |
-1. Can be thrown to a nearby location with a DEX check
-
-### Axes
-Axes are fearsome weapons that can do serious damage but offer no defense.
-
-| Axes             | Attack | Defense  | Affinity |
-|------------------|:------:|:--------:|:--------:|
-| Hatchet¹         | 1-2    | 0        | Strength |
-| Axe              | 2-3    | 0        | Strength |
-| Battle Axe       | 2-5    | 0        | Strength |
-| Great Axe        | 3-6    | 0        | Strength |
-1. Can be thrown to a nearby location with a STR check
-
-### Maces & Clubs
-Maces & clubs reduce any Defense provided by Armor to 1.
-
-| Maces            | Attack | Defense  |
-|------------------|:------:|:--------:|
-| Club¹            | 1      | 1        |
-| Quarterstaff¹    | 1      | 1        |
-| Spiked Club¹     | 1-2    | 1        |
-| Flail²           | 1-2    | 0        |
-| Mace             | 1-2    | 1        |
-1. Breaks if a 10 is rolled for damage
-2. Reduces Defense from Weapons & Shields by 1
-
-## Ranged Weapons
-
-### Bows
-| Bows             | Attack |
-|------------------|:------:|
-| Shortbow         | 2      |
-| Composite Bow    | 3      |
-| Longbow          | 5      |
-
-### Crossbows
-Unlike bows, crossbows use a bolt and are fired mechanically, so their ATP does not scale with any of your Stats. Additionally, once fired, they will need to be reloaded. Reloading a crossbow takes one round or 2 rounds for the Heavy Crossbow.
-
-| Bows            | ATP | Scaling | Weight |
-|---------------- |:---:|:-------:|:------:|
-| Hand Crossbow¹  | 1   | DEX    | 1      |
-| Light Crossbow  | 2   | DEX    | 1      |
-| Crossbow        | 4   | DEX    | 2      |
-| Heavy Crossbow² | 6   | DEX    | 3      |
-
-1. One-handed weapon
-2. 2 rounds to reload
+| Crossbows          | Attack (d10s) | Type      | Weight |
+| ------------------ | ------------- | --------- | ------ |
+| **Hand Crossbow**  | 1             | Dexterity | 1      |
+| **Crossbow**       | 3             | Dexterity | 3      |
+| **Heavy Crossbow** | 5             | Dexterity | 5      |
 
 ## Armor
-Armor provides passive protection by reducing incoming damage to the body part it protects.
+Armor provides protection on every incoming hit.
 
-### Helms
-| Type               | Poise | Weight |
-| ------------------ |:-----:|:------:|
-| Arming Cap         | 1     | 1      |
-| Leather Helm       | 2     | 1      |
-| Chain Hood         | 3     | 2      |
-| Steel Helm         | 4     | 2      |
-
-### Chests
-| Type               | Poise | Weight |
-| ------------------ |:-----:|:------:|
-| Gambeson*          | 1     | 1      |
-| Leather Armor      | 2     | 2      |
-| Chain Armor        | 3     | 3      |
-| Steel Armor        | 4     | 4      |
-
-### Gauntlets
-| Type              | Poise | Weight |
-| ----------------- |:-----:|:------:|
-| Leather Gloves    | 1     | 1      |
-| Leather Gauntlets | 2     | 1      |
-| Chain Gauntlets   | 3     | 2      |
-| Steel Gauntlets   | 4     | 2      |
-
-### Leggings
-| Type               | Poise | Weight |
-| ------------------ |:-----:|:------:|
-| Leather Boots      | 1     | 1      |
-| Leather Armor      | 2     | 2      |
-| Chain Leggings     | 3     | 3      |
-| Steel Leggings     | 4     | 4      |
-
-### Shields
-Shields are defensive equipment that reduce incoming Damage when the target is able to Defend. Shields can also grant the defender cover when they're focusing their attention on a ranged attacker. See [Combat](/rules/combat) for more information about defending.
-
-| Shields       | DEF | Weight | Cover |
-| ------------- |:---:|:------:|:----- |
-| Buckler       | 1   | 1      | 10%   |
-| Round Shield* | 2   | 2      | 25%   |
-| Heater Shield | 2   | 2      | 25%   |
-| Kite Shield   | 2   | 3      | 50%   |
-| Tower Shield  | 2   | 4      | 75%   |
-* Breaks if a 6 is rolled for Defense
+| Equipment         | Protection | Weight |
+| ----------------- | ---------- | ------ |
+| **Gambeson**      | 2          | 2      |
+| **Leather Armor** | 3          | 3      |
+| **Chainmail**     | 5          | 5      |
+| **Brigandine**    | 6          | 6      |
+| **Plate**         | 8          | 8      |
 
 ## Gear
-
 | Gear            | Usage | Weight |
 |-----------------|:-----:|:------:|
 | Arrows          | d8    | 1      |
@@ -248,5 +112,5 @@ Shields are defensive equipment that reduce incoming Damage when the target is a
 | Tent            | -     | 2      |
 | Torch           | d6/hr | 1      |
 | Wineskin        | d6    | -      |
-| 10ft Pole       | -     | -      |
-| 50ft Rope       | -     | -      |
+| 10ft Pole       | -     | 1      |
+| 50ft Rope       | -     | 1      |
