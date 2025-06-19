@@ -7,26 +7,33 @@ Roll 3d6 nine times and assigning each result as desired to Strength, Agility, D
 ## Pick Stats
 Choose one of the arrays below and apply the stats however you like.
 
+| Name       | Values                           |
+| ---------- | -------------------------------- |
+| Specialist | 16 + 13 + 12 + 11 + 11 + 10 + 10 + 9 + 8 |
+| Dual Focus | 14 + 14 + 12 + 11 + 11 + 10 + 10 + 9 + 9 |
+| Balanced   | 13 + 13 + 13 + 12 + 11 + 11 + 10 + 9 + 8 |
+
 ### High Single Stat
 
 ### Two reasonably high stats
 
 ### Three high stats
+|
 
 ## Professions
 Choose a Profession to determine your starting Equipment and Stat Bonuses.
 
 | Profession | Equipment | Bonuses |
 |:---------- |:--------- |:------- |
-| Barbarian | Bastard Sword, Hide Armor | +2 STR, +1 VIT |
-| Crusader | Chainmail, Arming Sword, Shield | +1 STR, +1 VIT, +1 WIS |
-| Friar | Robe, Rosary, Cross, Mace | +3 Wisdom |
-| Footpad | Leather armor, Rapier, Dagger | +2 Dex, +1 Agi |
-| Knight | Plate, Sword, Shield | +1 STR, +1 AGI, +1 CHA |
-| Minstrel | Gambeson, Cittern, Rapier | +1 Agility +2 Cha |
-| Sellsword | Leather Armor, Sword, Round Shield, Crossbow, d6 bolts | +1 AGI, +1 DEX, +1 END |
-| Sorcerer | Robe, Quarterstaff, Dagger | +3 Cha |
-| Wizard | Robe, Quarterstaff, Longsword | +3 INT |
+| Barbarian | Bastard Sword, Hide Armor |
+| Crusader | Chainmail, Arming Sword, Shield |
+| Friar | Robe, Rosary, Cross, Mace |
+| Footpad | Leather armor, Rapier, Dagger |
+| Knight | Plate, Sword, Shield |
+| Minstrel | Gambeson, Cittern, Rapier |
+| Sellsword | Leather Armor, Sword, Round Shield, Crossbow, d6 bolts |
+| Sorcerer | Robe, Quarterstaff, Dagger |
+| Wizard | Robe, Quarterstaff, Longsword |
 
 ## Buy Equipment
 Every new character starts with 3d6 x 10 gold to purchase additional [Equipment or Gear](/rules/equipment).

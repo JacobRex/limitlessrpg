@@ -21,7 +21,7 @@ You'll use Agility to...
 ### Dexterity
 Dexterity describes your Character's fine motor skills & hand-eye coordination. It determines how easily they can perform complex or precise actions.
 
-You'll use Dexterity to..
+You'll use Dexterity to...
 * Increase damage with Dexterity weapons by half your Dexterity (rounded down)
 * Perform careful actions like moving silently, balancing, hiding, etc
 * Perform complex actions like disabling devices, picking locks, tying a rope, picking a pocket, etc
@@ -29,13 +29,15 @@ You'll use Dexterity to..
 ### Vitality
 Vitality describes your Character's resilience and energy. It determines how much energy they have at their disposal and how reisistant they are to disease.
 
-* Determines your Life, which is equal to your Vitality
+You'll use Vitality to...
+* Increase your Life, which is equal to your Vitality
 * Resists disease, toxins, poison, infection, etc
 
 ### Endurance
 Endurance describes your Character's hardiness. It determines how much of a burden they can bear and what they can withstand.
 
-* Reduce incoming damage by half your Endurance (rounded down)
+You'll use Endurance to...
+* Reduce incoming damage by 1 for every 2 points of Endurance above 10
 * Determine how much weight you can Equip without penalty, which is equal to your Endurance. Any weight beyond that adds to the Difficult of all Checks.
 * Resist physical hardship like pain, fatigue, heat, cold, hunger, thirst, holding your breath, etc
 

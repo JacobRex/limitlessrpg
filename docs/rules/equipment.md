@@ -84,13 +84,13 @@ Unlike Nows, Crossbows use bolts and are fired mechanically, and require no Ener
 ## Armor
 Armor provides protection on every incoming hit.
 
-| Equipment         | Protection | Weight |
+| Equipment         | Protection | Weight | 
 | ----------------- | ---------- | ------ |
 | **Gambeson**      | 2          | 2      |
 | **Leather Armor** | 3          | 3      |
-| **Chainmail**     | 5          | 5      |
-| **Brigandine**    | 6          | 6      |
-| **Plate**         | 8          | 8      |
+| **Chainmail**     | 4          | 5      |
+| **Brigandine**    | 5          | 7      |
+| **Plate**         | 6          | 8      |
 
 ## Gear
 | Gear            | Usage | Weight |
