@@ -22,9 +22,9 @@ features:
     details: Simply describe what your want to happen and the GM will determine the Check.
   - title: No Levels
     details: Your Stats have a chance to increase as you play, making levels uneccessary.
-  - title: No Waiting
-    details: Initiative is determined by Combat Checks each round making the battlefield fun & fast paced.
-  - title: No Math
+  - title: No Initiative
+    details: Initiative is determined each round and resoled in order, making combat fast & unpredictable!
+  - title: No Modifiers
     details: Checks resolve when dice roll over & under target numbers, making Modifiers unecessary.
   - title: Deadly Combat
     details: Every weapon has the potential to do lethal damage. When you are on the battlefield you are literally fighting for your life!

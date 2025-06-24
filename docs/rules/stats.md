@@ -5,7 +5,7 @@ Stats describe your character's physical and mental traits and range from 3 to 1
 Strength describes your Character's physical might. It dermines how powerful they are, and the limits of their athletic ability.
 
 You'll use Strength to...
-* Increase damage with Strength weapons by half your Strength (rounded down)
+* Attack with Strength weapons
 * Take actions like climbing, throwing, grappling etc
 * Apply force to objects and push, pull, lift, or break them
 
@@ -13,7 +13,6 @@ You'll use Strength to...
 Agility describes your Character's atheleticism & nimbleness. It determines how easily they can react quickly or perform certain physical feats.
 
 You'll use Agility to...
-* Make Combat Checks
 * Perform athletic or acrobatic actions like jump, run, tumble, etc
 * Avoid harm by Dodging. See [combat](/rules/combat ) for more information.
 
@@ -21,31 +20,24 @@ You'll use Agility to...
 Dexterity describes your Character's fine motor skills & hand-eye coordination. It determines how easily they can perform complex or precise actions.
 
 You'll use Dexterity to...
-* Increase damage with Dexterity weapons by half your Dexterity (rounded down)
+* Attack with Dexterity weapons
 * Perform careful actions like moving silently, balancing, hiding, etc
 * Perform complex actions like disabling devices, picking locks, tying a rope, picking a pocket, etc
-
-## Vitality
-Vitality describes your Character's resilience and energy. It determines how much energy they have at their disposal and how reisistant they are to disease.
-
-You'll use Vitality to...
-* Increase your Life, which is equal to your Vitality
-* Resists disease, toxins, poison, infection, etc
 
 ## Endurance
 Endurance describes your Character's hardiness. It determines how much of a burden they can bear and what they can withstand.
 
 You'll use Endurance to...
-* Reduce incoming damage by 1 for every 2 points of Endurance above 10
-* Determine how much weight you can Equip without penalty, which is equal to your Endurance. Any weight beyond that adds to the Difficult of all Checks.
+* Increase your Stamina, which equals your Endurance and represents your life as well as your take actios like attacking and defending
 * Resist physical hardship like pain, fatigue, heat, cold, hunger, thirst, holding your breath, etc
 
 ## Vigor
-Vigor describes your Character's health and fitness. It determines how easily they can recover or perish from injury.
+Vitality describes your Character's resilience and energy. It determines how much energy they have at their disposal and how reisistant they are to disease.
 
-You'll use Vigor to...
-* Recover Life while resting
-* Recover from conditions like sickness, disease, being poisoned etc
+You'll use Vitality to...
+* Recovering Stamina while Resting
+* Resists disease, toxins, poison, infection, etc
+
 
 ## Intelligence
 Intelligence describes your Character's cleverness & thinking ability. It determines how easily they can understand, process or recall information.

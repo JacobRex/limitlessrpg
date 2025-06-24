@@ -1,15 +1,13 @@
 # Equipment
 Equipment refers to Weapons, Armor, and Shields and Gear that may be held or equipped by your Character. LIMITLESS doesn't prevent you from using any piece of equipment, but you will need to factor in Might and your Load limit to properly utilize Equipment.
 
-## Glossary
+## Attack
+Attack represents how damaging a Weapon is. Spend Stamina up to the Weapon’s Attack value to roll that many d10s. Take the highest roll as your damage. If you roll a 10, add another d10 to the damage and keep going until you something other than 10.
 
-### Attack
-Attack represents how damaging a Weapon is. Spend energy up to the Weapon’s Attack value to roll that many d10s. Take the highest roll as your damage. If you roll a 10, add another d10 to the damage and keep going until you something other than 10.
+## Defense
+Defense reduces incoming damage. Spend Stamina up to your Weapon's, Shield's and Armors Defense value to roll that many d6s. Take the highest roll as your Defense. If you roll a 6, add another d6 and keep going until you roll less than 6. If your final result equals or beats the attacker’s damage, the attack is fully blocked.
 
-### Defense
-Defense reduces incoming damage. Spend energy up to your weapon's and or shield's Defense value to roll that many d6s. Take the highest roll as your Defense. If you roll a 6, add another d6 and keep going until you roll less than 6. If your final result equals or beats the attacker’s damage, the attack is fully blocked.
-
-### Usage
+## Usage
 Usage is a simplified manner of keeping track of how much of a consumable item or ammunition remains. This will be represented by some die ranging from d4-d20. Whenever you use that item, roll its usage die. If the die rolled a 1 or 2, then the die goes down by one size from d20 > d12 > d10 > d8 > d6 > d4. When a 1 or 2 is rolled on a d4, then item is spent and no more of it remains.
 
 ## Dual Weilding
@@ -52,7 +50,7 @@ Clubs reduce any armor protection to 1.
 2. Reduces Defenders Defense pool to 1
 
 ## Shields
-Shields provide Defense when activated by spending energy as well as cover.
+Shields provide Defense when activated by spending Stamina as well as cover.
 
 | Shields           | Defense (d6s) | Cover | Weight |
 | ----------------- | ------------- | ----- | ------ |
@@ -84,33 +82,33 @@ Unlike Nows, Crossbows use bolts and are fired mechanically, and require no Ener
 ## Armor
 Armor provides protection on every incoming hit.
 
-| Equipment         | Protection | Weight | 
+| Equipment         | Defense    | Weight | 
 | ----------------- | ---------- | ------ |
-| **Gambeson**      | 2          | 2      |
-| **Leather Armor** | 3          | 3      |
-| **Chainmail**     | 4          | 5      |
-| **Brigandine**    | 5          | 7      |
-| **Plate**         | 6          | 8      |
+| **Gambeson**      | 1          | 2      |
+| **Leather Armor** | 2          | 3      |
+| **Chainmail**     | 3          | 5      |
+| **Brigandine**    | 4          | 7      |
+| **Plate**         | 5          | 8      |
 
 ## Gear
 | Gear            | Usage | Weight |
 |-----------------|:-----:|:------:|
-| Arrows          | d8    | 1      |
-| Backpack        | -     | -      |
-| Bedroll         | -     | 1      |
-| Bible           | -     | -      |
-| Bolts           | d8    | 1      |
-| Crucifix        | -     | -      |
-| Flask (Empty)   | d4    | -      |
-| Flint & Steel   | -     | -      |
-| Handheld Mirror | -     | -      |
-| Holy Water      | d4    | -      |
-| Lantern         | d6/hr | 1      |
-| Lantern Oil     | d4    | -      |
-| Rosary          | -     | -      |
-| Tankard         | d4    | -      |
-| Tent            | -     | 2      |
-| Torch           | d6/hr | 1      |
-| Wineskin        | d6    | -      |
-| 10ft Pole       | -     | 1      |
-| 50ft Rope       | -     | 1      |
+| **Arrows**          | d8    | 1      |
+| **Backpack**        | -     | -      |
+| **Bedroll**         | -     | 1      |
+| **Bible**           | -     | -      |
+| **Bolts**           | d8    | 1      |
+| **Crucifix**        | -     | -      |
+| **Flask (Empty)**   | d4    | -      |
+| **Flint & Steel**   | -     | -      |
+| **Handheld Mirror** | -     | -      |
+| **Holy Water**      | d4    | -      |
+| **Lantern**         | d6/hr | 1      |
+| **Lantern Oil**     | d4    | -      |
+| **Rosary**          | -     | -      |
+| **Tankard**         | d4    | -      |
+| **Tent**            | -     | 2      |
+| **Torch**           | d6/hr | 1      |
+| **Wineskin**        | d6    | -      |
+| **10ft Pole**       | -     | 1      |
+| **50ft Rope**       | -     | 1      |
