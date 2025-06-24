@@ -9,9 +9,9 @@ Choose one of the arrays below and apply the stats however you like.
 
 | Name       | Values                           |
 | ---------- | -------------------------------- |
-| Specialist | 16 + 13 + 12 + 11 + 11 + 10 + 10 + 9 + 8 |
-| Dual Focus | 14 + 14 + 12 + 12 + 11 + 10 + 10 + 9 + 8 |
-| Balanced   | 13 + 13 + 13 + 12 + 11 + 11 + 10 + 9 + 8 |
+| Specialist | 16, 13, 12, 11, 11, 10, 10, 9, 8 |
+| Dual Focus | 14, 14, 12, 12, 11, 10, 10, 9, 8 |
+| Balanced   | 13, 13, 13, 12, 11, 11, 10, 9, 8 |
 
 ## Professions
 Choose a Profession to determine your starting Equipment.

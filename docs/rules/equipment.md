@@ -27,14 +27,14 @@ Swords are versatile melee weapons with good attack and defense.
 | **Zweihander**        | 5             | 2             | Strength  | 5      |
 
 ## Axes
-Axes are fearsome weapons that can do serious damage but offer no defense.
+Axes are fearsome weapons that can do serious damage but offer little defense.
 
 | Axes                  | Attack (d10s) | Defense (d6s) | Type      | Weight |
 | --------------------- | ------------- | ------------- | --------- | ------ |
-| **Hatchet**           | 1             | 0             | Strength  | 1      |
-| **Axe**               | 3             | 0             | Strength  | 3      |
-| **Battle Axe**        | 5             | 0             | Strength  | 5      |
-| **Great Axe**         | 7             | 0             | Strength  | 7      |
+| **Hatchet**           | 1             | 1             | Strength  | 1      |
+| **Axe**               | 3             | 1             | Strength  | 3      |
+| **Battle Axe**        | 5             | 1             | Strength  | 5      |
+| **Great Axe**         | 7             | 1             | Strength  | 7      |
 
 ## Clubs
 Clubs reduce any armor protection to 1.
@@ -84,11 +84,11 @@ Armor provides protection on every incoming hit.
 
 | Equipment         | Defense    | Weight | 
 | ----------------- | ---------- | ------ |
-| **Gambeson**      | 1          | 2      |
-| **Leather Armor** | 2          | 3      |
-| **Chainmail**     | 3          | 5      |
-| **Brigandine**    | 4          | 7      |
-| **Plate**         | 5          | 8      |
+| **Gambeson**      | 2          | 2      |
+| **Leather Armor** | 3          | 3      |
+| **Chainmail**     | 5          | 5      |
+| **Brigandine**    | 6          | 7      |
+| **Plate**         | 7          | 8      |
 
 ## Gear
 | Gear            | Usage | Weight |

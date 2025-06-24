@@ -30,7 +30,8 @@ export default defineConfig({
         items: [
           { text: 'Core Mechanic', link: '/rules/core-mechanic' },
           { text: 'Character Stats', link: '/rules/stats' },
-          { text: 'Character Creation', link: '/stamina-recovery-death' },
+          { text: 'Stamina, Recovery & Death', link: '/rules/stamina-recovery-death' },
+          { text: 'Character Creation', link: '/rules/character-creation' },
           { text: 'Advancement', link: '/rules/advancement' },
           { text: 'Magic', link: '/rules/magic' },
           { text: 'Equipment', link: '/rules/equipment' },
